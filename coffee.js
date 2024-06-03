@@ -35,9 +35,26 @@ class makeCoffee {
   get water() {
     return this._water + 'ml';
   }
+
+  set sugar(value) {
+    if(typeof(value) ==='boolean'){
+      this._sugar = value;
+    } else {
+      console.error('불리언 타입이 아니면 안되요~!');
+    }
+  }
+
+  get sugar() {
+    if(this._sugar === true){
+      return '단맛';
+    } else {
+      return '쓴맛';
+    }
+  }
 }
 
-let test = new makeCoffee('대전',300,'5g','100ml');
+let test = new makeCoffee('대전',300,true,'100ml');
 console.log(test);
 console.log(test.wondoo);
 console.log(test.water);
+console.log(test.sugar);
