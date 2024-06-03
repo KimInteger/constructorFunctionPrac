@@ -18,6 +18,7 @@ function workOne(a, b) {
   }
 }
 
+// 변수에 할당해서 확인.
 let obj = workOne("갓겜","망겜");
 
 console.log(obj);
