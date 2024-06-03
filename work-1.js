@@ -5,6 +5,7 @@
 function workOne(a, b) {
 // * logic : 매개변수 두개를 받은 다음에 
 // * logic : return은 객체였음 좋겠다.
-
+  let localVariable = {};
+  
   return 객체;
 }
