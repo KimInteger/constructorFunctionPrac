@@ -1,5 +1,5 @@
 class makeCoffee {
-  constructor(wondoo, water, sugar, milk) {
+  constructor(wondoo, water, sugar) {
     this.wondoo = wondoo;
     this.water = water;
     this.sugar = sugar;
