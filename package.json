@@ -1,0 +1,11 @@
+{
+  "name": "constructorfunctionprac",
+  "version": "1.0.0",
+  "description": "\"생성자함수연습\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KimInteger",
+  "license": "MIT"
+}
