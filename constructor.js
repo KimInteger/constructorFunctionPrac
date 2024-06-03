@@ -12,8 +12,12 @@ class yakiRamen {
     this.ramenWater =ramenWater,
     this.addFood = addFood
   }
+  set ramenName(ramenName) {
+    if(ramenName !== '진라면') {
+      console.error('진라면을 먹어!!!!!!!!!!!!!!!!!!!!!!!!!!');
+    }
+  }
 }
 
-let test = new yakiRamen("신라면 건면", "물 550ml", "계란,떡볶이 떡");
-
+let test = new yakiRamen("신라면","물 300ml", "계란, 케찹, 고추장");
 console.log(test);
