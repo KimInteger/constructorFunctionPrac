@@ -9,5 +9,4 @@ function workThree(index, name) {
   return local
 };
 
-let test = workThree(0,"JACK MET");
-console.log(test);
+module.exports = workThree;
