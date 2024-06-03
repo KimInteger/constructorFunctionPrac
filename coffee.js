@@ -3,7 +3,6 @@ class makeCoffee {
     this.wondoo = wondoo;
     this.water = water;
     this.sugar = sugar;
-    this.milk = milk;
   }
   // *************** 규격만들기 ****************
 
@@ -53,7 +52,7 @@ class makeCoffee {
   }
 }
 
-let test = new makeCoffee('대전',300,true,'100ml');
+let test = new makeCoffee('대전',300,true);
 console.log(test);
 console.log(test.wondoo);
 console.log(test.water);
