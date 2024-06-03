@@ -32,9 +32,13 @@ const names = [
 
 let arrayMembers = [];
 
-for (let i = 0; i < names.length; i++) {
-  let member = makeMember(i,names[i]);
-  arrayMembers.push(member);
-}
+// for (let i = 0; i < names.length; i++) {
+//   let member = makeMember(i,names[i]);
+//   arrayMembers.push(member);
+// }
+
+names.forEach((item, index)=>{
+  arrayMembers.push(makeMember(index,item));
+})
 
 console.log(arrayMembers);
